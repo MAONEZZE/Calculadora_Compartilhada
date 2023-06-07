@@ -8,9 +8,9 @@ namespace CalculadoraCompartilhada.ConsoleApp.ModuloSubtracao
 {
     public class Subtracao
     {
-        public string subtrair(int primeiroValor, int segundoValor)
+        public string subtrair(decimal primeiroValor, decimal segundoValor)
         {
-            int resultado = primeiroValor - segundoValor;
+            decimal resultado = primeiroValor - segundoValor;
 
             return $"O valor da subtração entre {primeiroValor} menos {primeiroValor} é : {resultado}";
         }

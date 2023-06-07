@@ -8,7 +8,7 @@ namespace CalculadoraCompartilhada.ConsoleApp.ModuloDivisao
 {
     public class Divisao
     {
-        public string Dividir(int primeiroValor, int segundoValor)
+        public string Dividir(decimal primeiroValor, decimal segundoValor)
         {
             if(segundoValor == 0)
             {

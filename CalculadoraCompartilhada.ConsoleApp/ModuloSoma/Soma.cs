@@ -9,9 +9,9 @@ namespace CalculadoraCompartilhada.ConsoleApp.ModuloSoma
     public class Soma
     {
 
-       public string somar(int primeiroValor, int segundoValor)
+       public string somar(decimal primeiroValor, decimal segundoValor)
        {
-            int resultado = primeiroValor + segundoValor;
+            decimal resultado = primeiroValor + segundoValor;
 
             return $"O valor de soma entre {primeiroValor} mais {primeiroValor} é : {resultado}";
        }
