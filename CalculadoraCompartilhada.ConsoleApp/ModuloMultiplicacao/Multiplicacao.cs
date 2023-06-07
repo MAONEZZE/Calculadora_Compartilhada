@@ -8,7 +8,7 @@ namespace CalculadoraCompartilhada.ConsoleApp.ModuloMultiplicacao
 {
     public class Multiplicacao
     {
-        public string multiplicar(int primeiroValor, int segundoValor)
+        public string multiplicar(decimal primeiroValor, decimal segundoValor)
         {
             decimal resultado = primeiroValor * segundoValor;
 
