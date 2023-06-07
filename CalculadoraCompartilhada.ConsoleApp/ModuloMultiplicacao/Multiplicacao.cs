@@ -10,7 +10,7 @@ namespace CalculadoraCompartilhada.ConsoleApp.ModuloMultiplicacao
     {
         public string multiplicar(int primeiroValor, int segundoValor)
         {
-            int resultado = primeiroValor * segundoValor;
+            decimal resultado = primeiroValor * segundoValor;
 
             return $"O valor de multiplicação entre {primeiroValor} e {primeiroValor} é : {resultado}";
         }
