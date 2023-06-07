@@ -1,10 +1,20 @@
-﻿namespace CalculadoraCompartilhada.ConsoleApp
+﻿using System.Collections;
+
+namespace CalculadoraCompartilhada.ConsoleApp
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            TelaPrincipal telaPrincipal = new TelaPrincipal(new ArrayList());
+            string op;
+
+            do {
+
+                op = telaPrincipal.Menu();
+
+            }while (op != "S" && op != "s") ;
+            
         }
     }
 }
